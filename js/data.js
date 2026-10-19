@@ -40,7 +40,7 @@ window.PROJECTS = [
     demo: "https://fexiwalt.com"
   },
   {
-    title: "Lamont Motors: Car Dealership Platform",
+    title: "Agoloso Motors: Car Dealership Platform",
     category: "web",
     image: "assets/img/projects/car-dealership.svg",
     badge: "Full-stack",
@@ -52,7 +52,7 @@ window.PROJECTS = [
       "Secured with bcrypt passwords, JWT sessions, rate limiting, row-level security and API tests"
     ],
     tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "JavaScript", "JWT"],
-    github: "",
+    github: "https://github.com/KODUAAA/agoloso-motors",
     demo: ""
   },
   {
