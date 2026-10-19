@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-contact-api",
+  "version": "1.0.0",
+  "description": "Contact form API for Bright Akwasi Kodua's portfolio: validates, stores and notifies.",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "test": "node --test"
+  },
+  "author": "Bright Akwasi Kodua",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "pg": "^8.23.1"
+  }
+}

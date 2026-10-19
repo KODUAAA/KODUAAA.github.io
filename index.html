@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bright Akwasi Kodua | Computer Science &amp; IT Professional</title>
+  <meta name="description" content="Bright Akwasi Kodua is a Computer Science graduate of the University of Cape Coast, Ghana, focused on software development, IT and cybersecurity." />
+  <meta name="author" content="Bright Akwasi Kodua" />
+  <meta name="keywords" content="Bright Akwasi Kodua, Computer Science, IT Support, Web Developer Ghana, Cybersecurity, Full-Stack Developer, Portfolio" />
+  <meta name="theme-color" content="#060b18" />
+  <link rel="canonical" href="https://koduaaa.github.io/" />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bright Akwasi Kodua | Computer Science & IT Professional" />
+  <meta property="og:description" content="Building practical technology solutions from Ghana: web development, IT support, data and cybersecurity." />
+  <meta property="og:url" content="https://koduaaa.github.io/" />
+  <meta property="og:image" content="https://koduaaa.github.io/assets/img/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Apply saved theme before paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/style.css?v=4" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bright Akwasi Kodua",
+    "jobTitle": "Computer Science & IT Professional",
+    "address": { "@type": "PostalAddress", "addressLocality": "Accra", "addressCountry": "GH" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Cape Coast" },
+    "knowsAbout": ["Web Development", "Cybersecurity", "Networking", "IT Support", "Node.js", "PostgreSQL", "Python", "JavaScript", "Java", "C++"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ ICON SPRITE (reuse with <svg><use href="#i-name"/></svg>) ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></g></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m8 6-6 6 6 6m8-12 6 6-6 6M14 4l-4 16"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></g></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-7"/></g></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5l-9.4 9.4a2.1 2.1 0 0 1-3-3l9.4-9.4a4 4 0 0 0-2-2z M14.7 6.3 17 4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12 5 5L20 7"/></symbol>
+    <symbol id="i-database" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></g></symbol>
+    <symbol id="i-keyboard" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></g></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8"/></g></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5L2 9z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 9v6"/></g></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></g></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 21V4m0 0h11l-2 4 2 4H5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></symbol>
+  </svg>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="brand" aria-label="Bright Akwasi Kodua, home">
+        <span class="brand-mark" aria-hidden="true">BK</span>
+        <span class="brand-name">Bright Kodua</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+          <svg class="icon icon-sun"><use href="#i-sun"/></svg>
+          <svg class="icon icon-moon"><use href="#i-moon"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to NSS placements, internships &amp; remote roles
+          </p>
+          <h1 id="hero-title" class="hero-title">
+            <span class="hero-hi">Hi, I'm</span>
+            Bright Akwasi <span class="text-gradient">Kodua</span>
+          </h1>
+          <p class="hero-role">Computer Science &amp; IT Professional</p>
+          <p class="hero-lead">
+            I'm a Computer Science graduate of the University of Cape Coast. I build practical
+            technology solutions, from full-stack web platforms to security tools written in Python. I enjoy
+            solving problems and shipping things people actually use, with a focus on software development,
+            IT support and cybersecurity.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              View My Projects
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </a>
+            <a href="assets/resume/Bright-Akwasi-Kodua-Resume.pdf" class="btn btn-ghost" download>
+              <svg class="icon"><use href="#i-download"/></svg>
+              Download Resume
+            </a>
+          </div>
+
+          <ul class="socials" aria-label="Social links">
+            <li><a class="social" data-link="linkedin" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a></li>
+            <li><a class="social" data-link="github" href="#" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a></li>
+            <li><a class="social" data-link="email" href="#" aria-label="Email"><svg class="icon"><use href="#i-mail"/></svg></a></li>
+            <li class="socials-loc"><svg class="icon"><use href="#i-pin"/></svg> Accra, Ghana · <span id="gh-time">GMT</span></li>
+          </ul>
+        </div>
+
+        <!-- Visual: glass terminal + orbiting rings -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="glow-core"></div>
+
+          <div class="terminal glass">
+            <div class="terminal-bar">
+              <span></span><span></span><span></span>
+              <p>~/bright/profile.js</p>
+            </div>
+            <pre class="terminal-body"><code id="typed-code"></code><span class="caret"></span></pre>
+          </div>
+
+          <div class="float-chip chip-a glass"><svg class="icon"><use href="#i-shield"/></svg> Security-minded</div>
+          <div class="float-chip chip-b glass"><svg class="icon"><use href="#i-chart"/></svg> Data &amp; Research</div>
+          <div class="float-chip chip-c glass"><svg class="icon"><use href="#i-code"/></svg> Web Dev</div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="eyebrow">01 · About</p>
+          <h2 id="about-title" class="section-title">A builder who likes to understand <span class="text-gradient">how things work.</span></h2>
+          <p>
+            I'm Bright, a BSc Computer Science graduate of the <strong>University of Cape Coast</strong>,
+            and my graduation ceremony is in November 2026. I'm drawn to the parts of technology that keep systems running and people
+            safe: networks, security and the infrastructure underneath everyday services.
+          </p>
+          <p>
+            I learn best by building. I built and deployed <strong>FEXIWALT</strong>, a live ecommerce and classifieds
+            marketplace for Ghana, and <strong>Lamont Motors</strong>, a full-stack car dealership platform with its own
+            admin dashboard. On the security side, I've written a network port scanner and a file integrity monitor
+            from scratch in Python, competed in the NestCon capture-the-flag (solving SSRF and SSTI web challenges), and
+            I'm building a machine-learning phishing URL detector for my dissertation. I also like hands-on hardware work:
+            I traced a dead laptop display to a faulty cable and fixed it.
+          </p>
+          <p>
+            Outside tech, I've done front-line customer service, worked as a mobile money vendor and taught in a
+            classroom. Those jobs taught me reliability, patience with people and how to explain things clearly.
+            I'm now looking for an <strong>NSS placement</strong>, internship or remote role where I can contribute from
+            day one and keep growing as a technology professional.
+          </p>
+        </div>
+
+        <aside class="about-side reveal" aria-label="Quick facts">
+          <div class="fact-card glass">
+            <h3 class="fact-title">Quick facts</h3>
+            <dl class="facts">
+              <div><dt>Based in</dt><dd>Accra, Ghana</dd></div>
+              <div><dt>Degree</dt><dd>BSc Computer Science, UCC</dd></div>
+              <div><dt>Status</dt><dd>Graduate · ceremony Nov 2026</dd></div>
+              <div><dt>Focus</dt><dd>Software, IT &amp; Security</dd></div>
+              <div><dt>Languages</dt><dd>English, Twi, Ga</dd></div>
+            </dl>
+          </div>
+          <div class="interest-grid">
+            <span class="interest"><svg class="icon"><use href="#i-shield"/></svg>Cybersecurity</span>
+            <span class="interest"><svg class="icon"><use href="#i-server"/></svg>Networking &amp; IT support</span>
+            <span class="interest"><svg class="icon"><use href="#i-code"/></svg>Software development</span>
+            <span class="interest"><svg class="icon"><use href="#i-chart"/></svg>Data &amp; research</span>
+            <span class="interest"><svg class="icon"><use href="#i-layout"/></svg>UI &amp; interactive web</span>
+            <span class="interest"><svg class="icon"><use href="#i-tool"/></svg>Real-world problem solving</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">02 · Skills</p>
+          <h2 id="skills-title" class="section-title">What I work with</h2>
+          <p class="section-sub">Skills I've applied in projects, coursework and support work. Each one comes with a note on how I've actually used it.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-shield"/></svg></div>
+            <h3>Cybersecurity</h3>
+            <ul class="tags"><li>Vulnerability Scanning</li><li>File Integrity Monitoring</li><li>Phishing Detection</li><li>Network Security Design</li><li>Web Security (SSRF, SSTI)</li><li>Kali Linux</li></ul>
+            <p class="skill-note">Built my own scanning and monitoring tools, solved web security challenges in a CTF, and completed a cybersecurity internship with Thrive Ghana.</p>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-server"/></svg></div>
+            <h3>Networking</h3>
+            <ul class="tags"><li>VLANs</li><li>VLSM Subnetting</li><li>IPsec VPN</li><li>WPA3</li><li>Network Monitoring</li><li>Troubleshooting</li></ul>
+            <p class="skill-note">Designed a full segmented, VPN-connected network for a fintech scenario in my coursework.</p>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-code"/></svg></div>
+            <h3>Programming</h3>
+            <ul class="tags"><li>Python</li><li>JavaScript</li><li>Java</li><li>C++</li><li>Node.js</li><li>HTML</li><li>CSS</li></ul>
+            <p class="skill-note">Python for security tools and machine learning, JavaScript for web apps, and Java and C++ for core computer science work.</p>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-layout"/></svg></div>
+            <h3>Web &amp; Databases</h3>
+            <ul class="tags"><li>React</li><li>Express</li><li>PostgreSQL</li><li>Supabase</li><li>SQL</li><li>Firebase</li><li>Flask</li></ul>
+            <p class="skill-note">Built and deployed two full platforms: a live marketplace and a car dealership system with an admin dashboard.</p>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-tool"/></svg></div>
+            <h3>IT &amp; Systems</h3>
+            <ul class="tags"><li>Unix/Linux Administration</li><li>Hardware Diagnostics &amp; Repair</li><li>Technical Support</li><li>Backup &amp; DRP</li><li>Ticketing &amp; Monitoring Basics</li></ul>
+            <p class="skill-note">Repaired a laptop display fault hands-on, plus systems administration coursework in backups, continuity and user management.</p>
+          </article>
+
+          <article class="skill-card glass reveal">
+            <div class="skill-icon"><svg class="icon"><use href="#i-database"/></svg></div>
+            <h3>Tools &amp; Productivity</h3>
+            <ul class="tags"><li>Git &amp; GitHub</li><li>VS Code</li><li>Adobe Photoshop</li><li>Microsoft Office</li></ul>
+            <p class="skill-note">Version control on every project, Photoshop for graphics, and a completed Microsoft Office course with Alison.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">03 · Projects</p>
+          <h2 id="projects-title" class="section-title">Things I've built</h2>
+          <p class="section-sub">Each project started with a real problem. Here's what it solves, how I built it and where to see it.</p>
+        </header>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="security" aria-pressed="false">Security</button>
+          <button class="filter-btn" data-filter="network" aria-pressed="false">IT &amp; Networking</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter-btn" data-filter="data" aria-pressed="false">Data &amp; ML</button>
+        </div>
+
+        <!-- Cards are generated from js/data.js. Add a new object there to add a project. -->
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section-alt" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">04 · Services</p>
+          <h2 id="services-title" class="section-title">How I can help</h2>
+          <p class="section-sub">Available for freelance, contract and part-time work, remotely or in Ghana.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service reveal"><svg class="icon"><use href="#i-layout"/></svg><h3>Website Development</h3><p>Fast, responsive websites for individuals, small businesses and organisations.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-keyboard"/></svg><h3>Data Entry</h3><p>Accurate, consistent data capture into spreadsheets, databases and online systems.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-search"/></svg><h3>Online Research</h3><p>Finding, comparing and summarising reliable information from credible sources.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-check"/></svg><h3>Data Verification</h3><p>Cross-checking records, removing duplicates and flagging inconsistencies.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-server"/></svg><h3>IT Support</h3><p>Device setup, software installation, user support and everyday maintenance.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-tool"/></svg><h3>Technical Troubleshooting</h3><p>Step-by-step diagnosis of hardware, software and connectivity issues.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-shield"/></svg><h3>Basic Cybersecurity Support</h3><p>Account security, safe configuration and practical security awareness.</p></article>
+          <article class="service reveal"><svg class="icon"><use href="#i-chart"/></svg><h3>Data Analysis</h3><p>Cleaning data and presenting findings in clear tables, charts and summaries.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">05 · Experience</p>
+          <h2 id="experience-title" class="section-title">Education &amp; experience</h2>
+          <p class="section-sub">Where I've studied, what I've worked on, and what's next.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-briefcase"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Next</span> Available now</p>
+              <h3>National Service (NSS): Seeking Placement</h3>
+              <p class="tl-org">Ghana · Software, IT or cybersecurity</p>
+              <p>Looking for an NSS placement where I can contribute from day one, support real systems and keep learning from an experienced team. Currently taking the British Council's DIVE+ career-readiness programme.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-grad"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Education</span> Completed · Graduation ceremony November 2026</p>
+              <h3>BSc. Computer Science</h3>
+              <p class="tl-org">University of Cape Coast (UCC), Ghana</p>
+              <ul class="tl-list">
+                <li>Software Engineering, Database Management, Cryptography &amp; Network Security.</li>
+                <li>Networking (VLSM, VLANs, IPsec VPN, WPA3) and Systems Administration (BCP/DRP, backups, Unix users).</li>
+                <li>Operations Research: optimisation and decision modelling (Simplex method, Hungarian algorithm).</li>
+                <li>Dissertation: a machine-learning Phishing URL Detection System (in progress).</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-shield"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Internship</span> Cybersecurity</p>
+              <h3>Cybersecurity Internship</h3>
+              <p class="tl-org">Thrive Ghana</p>
+              <p>Completed a cybersecurity internship programme and earned the Thrive Ghana Cybersecurity Internship Certificate.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-flag"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Competitions</span> Hackathon &amp; CTF</p>
+              <h3>NestCon Capture-the-Flag &amp; Cursor+ Hackathon</h3>
+              <p class="tl-org">Participant</p>
+              <p>Solved web security challenges at the NestCon CTF, including server-side request forgery (SSRF) and server-side template injection (SSTI). Also took part in the Cursor+ Hackathon.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-flag"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Admission</span> Deferred</p>
+              <h3>Kent State University: Offer of Admission (Deferred)</h3>
+              <p class="tl-org">Kent, Ohio, USA</p>
+              <p>Received an offer of admission to Kent State University. Enrolment is currently deferred.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-chart"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Work</span> Customer service</p>
+              <h3>Customer Service Support</h3>
+              <p class="tl-org">Family-owned second-hand business</p>
+              <p>Provided front-line customer service: assisting buyers, answering enquiries and helping resolve issues so customers left satisfied and came back.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-chart"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Work</span> Customer-facing</p>
+              <h3>Mobile Money Vendor</h3>
+              <p class="tl-org">Kumasi, Ghana</p>
+              <p>Managed daily transactions, customer service and cash reconciliation, which built my reliability and attention to detail under pressure.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-grad"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Work</span> Teaching</p>
+              <h3>Teacher</h3>
+              <p class="tl-org">Ghana</p>
+              <p>Delivered structured lessons and managed classroom operations, building strong communication and organisational skills.</p>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-dot"><svg class="icon"><use href="#i-grad"/></svg></span>
+            <div class="tl-card glass">
+              <p class="tl-meta"><span class="tl-tag">Education</span> 2018 – 2021</p>
+              <h3>General Science</h3>
+              <p class="tl-org">Okomfo Anokye Senior High School · Wiamoase, Ashanti Region</p>
+              <p>Senior high school studies in General Science.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section section-alt" id="certifications" aria-labelledby="certs-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">06 · Certifications</p>
+          <h2 id="certs-title" class="section-title">Certifications &amp; training</h2>
+          <p class="section-sub">My certificate, plus the university courses behind my networking and security skills.</p>
+        </header>
+        <!-- Cards are generated from js/data.js -->
+        <div class="certs-grid" id="certs-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section class="section" id="resume" aria-labelledby="resume-title">
+      <div class="container">
+        <div class="resume-card glass reveal">
+          <div class="resume-copy">
+            <p class="eyebrow">07 · Resume</p>
+            <h2 id="resume-title" class="section-title">My resume, on one page.</h2>
+            <p class="section-sub">Education, skills, projects and experience in a recruiter-friendly format. Download the PDF or view it in your browser.</p>
+            <div class="resume-ctas">
+              <a href="assets/resume/Bright-Akwasi-Kodua-Resume.pdf" class="btn btn-primary btn-lg" download>
+                <svg class="icon"><use href="#i-download"/></svg>
+                Download My Resume
+              </a>
+              <a href="resume.html" class="btn btn-ghost btn-lg" target="_blank" rel="noopener">
+                <svg class="icon"><use href="#i-eye"/></svg>
+                View Resume
+              </a>
+            </div>
+            <p class="resume-meta">PDF · 1 page · Updated <span id="resume-updated">2026</span></p>
+          </div>
+          <div class="resume-preview" aria-hidden="true">
+            <div class="paper">
+              <div class="paper-head"><span class="ph-name"></span><span class="ph-role"></span></div>
+              <span class="pl w90"></span><span class="pl w70"></span>
+              <span class="ph-sec"></span>
+              <span class="pl w100"></span><span class="pl w80"></span><span class="pl w60"></span>
+              <span class="ph-sec"></span>
+              <span class="pl w90"></span><span class="pl w75"></span>
+              <span class="ph-sec"></span>
+              <span class="pl w85"></span><span class="pl w65"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="eyebrow">08 · Contact</p>
+          <h2 id="contact-title" class="section-title cta-title">Let's Build Something <span class="text-gradient">Useful</span> Together.</h2>
+          <p class="section-sub">Have a role, project or question? Send me a message and I'll get back to you within 24–48 hours.</p>
+
+          <ul class="contact-list">
+            <li><a data-link="email" href="#"><span class="ci"><svg class="icon"><use href="#i-mail"/></svg></span><span><small>Email</small><span data-text="email">[INSERT EMAIL]</span></span></a></li>
+            <li><a data-link="linkedin" href="#" target="_blank" rel="noopener"><span class="ci"><svg class="icon"><use href="#i-linkedin"/></svg></span><span><small>LinkedIn</small>Bright Akwasi Kodua</span></a></li>
+            <li><a data-link="github" href="#" target="_blank" rel="noopener"><span class="ci"><svg class="icon"><use href="#i-github"/></svg></span><span><small>GitHub</small>View my repositories</span></a></li>
+            <li><div><span class="ci"><svg class="icon"><use href="#i-pin"/></svg></span><span><small>Location</small>Accra, Ghana · Open to remote work</span></div></li>
+          </ul>
+        </div>
+
+        <form class="contact-form glass reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Your full name" />
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com" />
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field field-full">
+            <label for="cf-subject">Subject</label>
+            <input id="cf-subject" name="subject" type="text" required minlength="3" placeholder="Internship opportunity, project enquiry…" />
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field field-full">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" rows="5" required minlength="10" placeholder="Tell me a little about what you have in mind."></textarea>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <!-- Honeypot field for spam bots -->
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="field-full form-footer">
+            <button type="submit" class="btn btn-primary btn-lg">
+              <svg class="icon"><use href="#i-send"/></svg>
+              Send Message
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand"><span class="brand-mark" aria-hidden="true">BK</span><span class="brand-name">Bright Akwasi Kodua</span></a>
+        <p class="footer-role">Computer Science &amp; IT Professional · Accra, Ghana</p>
+      </div>
+      <ul class="footer-links">
+        <li><a data-link="linkedin" href="#" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin"/></svg> LinkedIn</a></li>
+        <li><a data-link="github" href="#" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg> GitHub</a></li>
+        <li><a data-link="email" href="#"><svg class="icon"><use href="#i-mail"/></svg> Email</a></li>
+      </ul>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Bright Akwasi Kodua. All rights reserved.</p>
+      <p>Built with HTML, CSS &amp; JavaScript · Made in Ghana</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <svg class="icon"><use href="#i-arrow-up"/></svg>
+  </button>
+
+  <script src="js/data.js?v=5" defer></script>
+  <script src="js/main.js?v=4" defer></script>
+</body>
+</html>

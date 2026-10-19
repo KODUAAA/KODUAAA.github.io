@@ -1,0 +1,24 @@
+# Render Blueprint: deploys the contact API from the server/ folder.
+# In Render: New + → Blueprint → pick this repo. Then fill in the secret values it asks for.
+services:
+  - type: web
+    name: bright-portfolio-api
+    runtime: node
+    plan: free
+    rootDir: server
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: ALLOWED_ORIGINS
+        value: https://koduaaa.github.io
+      - key: DATABASE_URL
+        sync: false   # Neon connection string
+      - key: RESEND_API_KEY
+        sync: false
+      - key: NOTIFY_TO
+        value: brightkoduaakwasi@gmail.com

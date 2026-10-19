@@ -1,0 +1,15 @@
+# Secrets and local data: never commit these
+.env
+server/.env
+server/data/
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local editor/agent config
+.claude/
