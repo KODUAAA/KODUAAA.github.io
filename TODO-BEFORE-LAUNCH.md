@@ -4,7 +4,7 @@ Your real details (UCC degree, Kent State deferral, projects, experience, Thrive
 
 ## 1. Links (`js/data.js`, `window.SITE` at the top)
 - [ ] `linkedin`: your LinkedIn profile URL
-- [ ] `github`: your GitHub profile URL
+- [x] `github`: https://github.com/KODUAAA
 - [ ] `apiUrl`: after deploying the contact API (step 6), paste its Render URL here.
       Until then, the live contact form opens the visitor's email app, addressed to your Gmail.
 
@@ -29,7 +29,7 @@ Your real details (UCC degree, Kent State deferral, projects, experience, Thrive
       (in `resume.html` and in the Experience section of `index.html`).
 
 ## 5. Before deploying
-- [ ] In `index.html`, replace `https://example.com/` in `<link rel="canonical">` with your real domain.
+- [x] Live at https://koduaaa.github.io (GitHub Pages, repo KODUAAA/KODUAAA.github.io). Every `git push` to `main` updates the site in about a minute.
 - [ ] Optional: for LinkedIn and WhatsApp link previews, export `assets/img/og-image.svg` to a 1200×630 PNG and update the `og:image` tag.
 - [ ] Optional: add a professional photo to the About section.
 - [ ] After any CSS or JS change, bump `?v=2` → `?v=3` on the three asset links at the top and bottom of `index.html`, so visitors don't get old cached files.
