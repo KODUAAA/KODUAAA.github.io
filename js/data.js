@@ -144,13 +144,29 @@ window.PROJECTS = [
     problem: "Clients find it hard to picture a house from flat 2D floor plans.",
     description: "An interactive virtual-reality walkthrough of a modern villa that runs directly in the browser, on desktop, mobile or a VR headset.",
     features: [
-      "Walk through rooms with keyboard, touch or VR controllers",
-      "Clickable hotspots that show room details",
-      "Runs in the browser with nothing to install"
+      "Furnished villa and compound with a gate, car and a pool with animated water",
+      "Animated characters: walking security guards and a dog",
+      "Walk around with keyboard and mouse, on a phone, or in a VR headset; nothing to install"
     ],
     tech: ["A-Frame", "WebXR", "JavaScript", "HTML"],
-    github: "",
-    demo: ""
+    github: "https://github.com/KODUAAA/Exams",
+    demo: "https://pscsc220024.vercel.app"
+  },
+  {
+    title: "A-Frame Solar System",
+    category: "web",
+    image: "assets/img/projects/dream-villa-vr.svg",
+    badge: "WebVR",
+    problem: "Planet sizes, orbits and spin are hard to grasp from a flat textbook diagram.",
+    description: "An animated 3D solar system in the browser: the Sun, all eight planets and the Moon, each orbiting and spinning at its own speed.",
+    features: [
+      "Realistic 2K textures for every planet, plus Saturn's transparent ring",
+      "Nested orbits: the Moon circles Earth while Earth circles the Sun",
+      "Milky Way sky with a slowly rotating star layer"
+    ],
+    tech: ["A-Frame", "WebXR", "JavaScript", "HTML"],
+    github: "https://github.com/KODUAAA/Practical-Quiz-2",
+    demo: "https://ps-csc-22-0024-practical-quiz-2.vercel.app"
   },
   {
     title: "Financial Monitor",
