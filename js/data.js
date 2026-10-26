@@ -36,7 +36,7 @@ window.PROJECTS = [
       "Mobile-first, installable web app with offline support"
     ],
     tech: ["JavaScript", "HTML", "CSS", "Firebase", "PWA"],
-    github: "",
+    github: "https://github.com/KODUAAA/fexiwalt",
     demo: "https://fexiwalt.com"
   },
   {
